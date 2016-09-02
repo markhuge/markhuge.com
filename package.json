@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "name": "markhuge.com",
+  "description": "http://markhuge.com",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markhuge/markhuge.com.git"
+  },
+  "author": "Mark Wilkerson <mark@markwilkerson.me>",
+  "homepage": "markhuge.com",
+  "devDependencies": {
+    "browser-sync": "^2.14.3",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-sass": "^2.3.2"
+  }
+}
