@@ -1,0 +1,91 @@
+html { 
+  background: url(https://upload.wikimedia.org/wikipedia/commons/9/98/Galaxy-2048x1152.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#container {
+  margin: 0 auto;
+  width: 70%
+}
+
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+p {
+  -webkit-animation: spin 90s infinite;
+  animation: spin 90s infinite;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  -webkit-filter: drop-shadow(5px 5px 2px black);
+  filter: drop-shadow(5px 5px 2px black);
+}
+
+@keyframes poop {
+    0%,
+    16%, 30%,
+    46%, 60%,
+    76%, 90% {
+      -webkit-filter: drop-shadow(2px 2px 20px cyan);
+      filter: drop-shadow(2px 2px 20px cyan);
+  }
+
+  1%, 15%,
+  31%, 45%,
+  61%, 75%,
+  91%, 100% {
+    -webkit-filter: drop-shadow(2px 2px 20px #ff0080);
+    filter: drop-shadow(2px 2px 20px #ff0080);
+  }
+
+}
+
+@-webkit-keyframes poop {
+  0%,
+  16%, 30%,
+  46%, 60%,
+  76%, 90% {
+    -webkit-filter: drop-shadow(2px 2px 20px cyan);
+    filter: drop-shadow(2px 2px 20px cyan);
+  }
+
+  1%, 15%,
+  31%, 45%,
+  61%, 75%,
+  91%, 100% {
+    -webkit-filter: drop-shadow(2px 2px 20px #ff0080);
+    filter: drop-shadow(2px 2px 20px #ff0080);
+  }
+
+
+}
+
+h1 {
+  animation: poop 0.8s infinite;
+  -webkit-animation: poop 0.8s infinite;
+  margin-bottom: 200px;
+  margin-top: 200px;
+  text-align: center;
+  font-family: "Shrikhand", cursive;
+  font-size: 100px;
+  font-weight: bold;
+  color: white;
+  -webkit-transform: rotate(-20deg);
+  transform: rotate(-20deg);
+  -webkit-filter: drop-shadow(2px 2px 20px #ff0080);
+  filter: drop-shadow(2px 2px 20px #ff0080);
+  text-transform: uppercase;
+}
