@@ -1,0 +1,29 @@
+@keyframes poop {
+    0%,
+    16%, 30%,
+    46%, 60%,
+    76%, 90% {
+      filter: drop-shadow(2px 2px 20px cyan);
+  }
+
+  1%, 15%,
+  31%, 45%,
+  61%, 75%,
+  91%, 100% {
+    filter: drop-shadow(2px 2px 20px #ff0080);
+  }
+
+}
+
+
+h1 {
+  text-align: center;
+  font-family: "Shrikhand", cursive;
+  font-size: 100px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  animation: poop 0.8s infinite;
+  transform: rotate(-20deg);
+  filter: drop-shadow(2px 2px 20px #ff0080);
+}
