@@ -15,11 +15,20 @@
 
 }
 
+// Yeah I know...
+@media only screen and (min-device-width : 320px) and (max-device-width : 736px) {
+  h1 { font-size: 50px; }
+  p { font-size: 20px; }
+}
+
+@media only screen and (min-device-width : 737px) {
+  h1 { font-size: 100px; }
+  p { font-size: 40px; }
+}
 
 h1 {
   text-align: center;
   font-family: "Shrikhand", cursive;
-  font-size: 100px;
   font-weight: bold;
   text-transform: uppercase;
   color: white;
@@ -27,3 +36,4 @@ h1 {
   transform: rotate(-20deg);
   filter: drop-shadow(2px 2px 20px #ff0080);
 }
+

@@ -7,7 +7,7 @@ const sync   = require('browser-sync').create()
 const paths = {
   sass: ['./src/sass/**/*.scss'],
   html: ['./src/html/**/*.html'],
-  html: ['./src/images/**/*.*']
+  images: ['./src/images/**/*.*']
 }
 
 
@@ -26,6 +26,12 @@ gulp.task('html', () => {
     .pipe(sync.stream())
 })
 
+gulp.task('images', () => {
+  gulp.src(paths.images)
+    .pipe(gulp.dest('./dist/'))
+    .pipe(sync.stream())
+})
+
 gulp.task('sync', () => {
   sync.init({
     server: { baseDir: './dist' }
@@ -34,4 +40,4 @@ gulp.task('sync', () => {
   gulp.watch(paths.html,['html']).on('change', sync.reload)
 })
 
-gulp.task('default', ['sync', 'css', 'html'])
+gulp.task('default', ['sync', 'css', 'html', 'images'])
