@@ -1,0 +1,121 @@
+@import url(https://fonts.googleapis.com/css?family=Shrikhand);
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none; }
+
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+@-webkit-keyframes poop {
+  0%,
+  16%, 30%,
+  46%, 60%,
+  76%, 90% {
+    -webkit-filter: drop-shadow(2px 2px 20px cyan);
+            filter: drop-shadow(2px 2px 20px cyan); }
+  1%, 15%,
+  31%, 45%,
+  61%, 75%,
+  91%, 100% {
+    -webkit-filter: drop-shadow(2px 2px 20px #ff0080);
+            filter: drop-shadow(2px 2px 20px #ff0080); } }
+
+@keyframes poop {
+  0%,
+  16%, 30%,
+  46%, 60%,
+  76%, 90% {
+    -webkit-filter: drop-shadow(2px 2px 20px cyan);
+            filter: drop-shadow(2px 2px 20px cyan); }
+  1%, 15%,
+  31%, 45%,
+  61%, 75%,
+  91%, 100% {
+    -webkit-filter: drop-shadow(2px 2px 20px #ff0080);
+            filter: drop-shadow(2px 2px 20px #ff0080); } }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 736px) {
+  h1 {
+    font-size: 50px; }
+  p {
+    font-size: 20px; } }
+
+@media only screen and (min-device-width: 737px) {
+  h1 {
+    font-size: 100px; }
+  p {
+    font-size: 40px; } }
+
+h1 {
+  text-align: center;
+  font-family: "Shrikhand", cursive;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  -webkit-animation: poop 0.8s infinite;
+          animation: poop 0.8s infinite;
+  -webkit-transform: rotate(-20deg);
+          transform: rotate(-20deg);
+  -webkit-filter: drop-shadow(2px 2px 20px #ff0080);
+          filter: drop-shadow(2px 2px 20px #ff0080); }
+
+html, body {
+  width: 100%;
+  height: 100%; }
+
+html {
+  background: url(https://upload.wikimedia.org/wikipedia/commons/9/98/Galaxy-2048x1152.jpg) no-repeat center center fixed;
+  background-size: cover;
+  margin-top: 10em; }
+
+#container {
+  margin: 0 auto;
+  width: 70%; }
+
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+
+p {
+  color: white;
+  text-align: center;
+  -webkit-animation: spin 90s infinite;
+          animation: spin 90s infinite;
+  -webkit-filter: drop-shadow(5px 5px 2px black);
+          filter: drop-shadow(5px 5px 2px black); }
