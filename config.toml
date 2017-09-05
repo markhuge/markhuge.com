@@ -1,0 +1,19 @@
+baseURL = "http://markhuge.com/"
+languageCode = "en-us"
+title = "Mark Wilkerson"
+theme = "hugo-goa"
+
+[params]
+author = "Mark Wilkerson"
+intro = "Software Engineer. DevOps Evangelist"
+authorimage = "mark.png"
+description = "Currently @ Twitch/Amazon. Previously Blizzard Entertainment, Hightail, Dell Software"
+dateformat = "Jan 2, 2006"
+
+[params.social]
+github = "markhuge"
+keybase = "markhuge"
+pgp = "8EA279E656673B23"
+angellist = "mark-wilkerson"
+
+
