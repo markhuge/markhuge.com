@@ -2,6 +2,7 @@ baseURL = "http://markhuge.com/"
 languageCode = "en-us"
 title = "Mark Wilkerson"
 theme = "hugo-goa"
+publishdir = "docs"
 
 [params]
 author = "Mark Wilkerson"
