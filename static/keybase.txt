@@ -1,0 +1,80 @@
+==================================================================
+https://keybase.io/markhuge
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://markhuge.com
+  * I am markhuge (https://keybase.io/markhuge) on keybase.
+  * I have a public key with fingerprint 6450 7421 25CF B80C C9EA  6BB6 8EA2 79E6 5667 3B23
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01014f4afa85f7916a0f0622ea57c95e44d503f023127ea935e282d4e8146783b80a0a",
+            "fingerprint": "6450742125cfb80cc9ea6bb68ea279e656673b23",
+            "host": "keybase.io",
+            "key_id": "8ea279e656673b23",
+            "kid": "01014f4afa85f7916a0f0622ea57c95e44d503f023127ea935e282d4e8146783b80a0a",
+            "uid": "efc743b21215b8a9137fec8a7597af00",
+            "username": "markhuge"
+        },
+        "revoke": {
+            "sig_ids": [
+                "8999b9bd867dcb9e5fa419393d0ec8518b8f5565f59631fd2eef9e55550cd7260f"
+            ]
+        },
+        "service": {
+            "hostname": "markhuge.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1472933660,
+    "expire_in": 157680000,
+    "prev": "bab744846b23da9adedbdb2eee62e0866562b28f81f5e6e478e63967a142069c",
+    "seqno": 21,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Comment: GPGTools - https://gpgtools.org
+
+owGtUntQVFUcXsBMVqgdIqjAdC40kPG4z3PvXWJ0nGkIm4nHJA9xg/s4d7k89i77
+AiKitKgsUBMNBhCjQYMCHMaaUkScBtLAkhhRBKWRogTGEAM3KugsU/80/dnvnzPn
+nO/3fd/vsd/fR6f3qm4unUozx4V5DdwSdekDsWQZJmpyKWYsw/Lh6gELZGh3ZOer
+MmbEcAInaIUWFIFjFJYngIArOCBJKDCsxDOQpmUGpxScpAiShQJPMZDkSJmGHEED
+lqNEDhdwAYvCFNVihjarTbU4EC2gGZylSYJkJAVBJImHAhBFwEGBZHkIGABYSiQp
+lJir2T0ZyJwo2GGMqqE3dMletfcf+P/Zt3OVDioSSyMBgiQYkRN4gmIVKHECy/Cs
+oOC4B2iHNotQCBG6ULDl5zrNECuPwmzQpeVDT1/tqhmZtmPGLIzjeV7kRZkDrCyJ
+PGQUgSZ4iqdkHLEyBCdyCsMARmF4QBGKTEKoIBQKXJJZEuAKZkLcSNGlSqvkni79
+Sz1G0gqRL6tNc2iSVoB+ch0Oq9FjylFqRciTWDEUs/8myRZVi4xmhDJc0GZXNQtm
+JBBUcqgeVoJmSZ6iAMCjMFhiVW0wW/UgGBZwOAqPDnQhDVEQWZrmaICmIQu8IENZ
+lEVUAAQkxDmARkWKJKdwhMJAAGmWg4DiASsQNIkDXsI8ZRVZNMxIEsioYEacqHMW
+weG0oYbq3/YOXaPz0uvW3uft2V6d3tfwz0qPLhp0fYHr94bZgnBTfHVPYl5k29ft
+Ytf9fq9H9kTzjYkvZXSGlMTpT+dHGB4r6Xs3dfdWw67N84PL6rHT6dbrE5bONxOi
+wqtmLriDgg698J0WvROuHbl5p2btM8XS1ei6ui+FLVtafvIPHHzNnZs04Tt6JfaS
+U3R9/lzVDw1FK7ONhdsSfm6oPzF3ceG4f8XH9risXbA59baPNjwdHNOa5uS6r5Uv
+t9a69uqxDcG/JNWP95+qPCjHv9fyp3Vi+NHuxCc6zAHLa0ycfvhyp7vDwQcNJU6H
+j0VMPNDshZ+5PrnudsanA6b+nJrBtKz1J0Osr0YN2vX9ppT2sw/rfy07fODQ+2Vf
+GQrivg/Rnlp0XthT7YcvBs8kUL/ju5dvPfhF3kKm9UfRcKS1o77mzNNjH226snGx
+LsMd0ddaplaYrn7zUGx2zjvT5W0+B+O2JtVvnK9NqezI+6Pzg9HjLUsniifPzj1y
+jkk80ju+sjBytzt5qelycO+NgKO6ozt9dyzrmtf572uP9FZDz/c/nuB8MS+5Tdv+
+YUZx9bX5DdGbLn4WWLdZF3aqMs/v2PbZrn2N6Smq/xvj7RX3KlZ2fDLgdod3Ze5J
+OgxSiuOfnTVMnXvr5tTcUktT1aWg8TrY61MUkPByVcfybz2Z3yY37R+auTO27YAy
+tHDDW3G8cr5tMvXe8/YC9smRuzOhAd4NtdU5fwE=
+=D0Gs
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/markhuge
+
+==================================================================
+
